@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd - Assignment</title>
+    <script src="https://kit.fontawesome.com/2d47bc5e5d.js" crossorigin="anonymous"></script>
+    <style>
+        .parent {
+            width: 800px;
+            height: 2076px;
+            background-color: rgb(1, 115, 168);
+            margin: 0 auto;
+        }
+
+        .parent #heading {
+            margin: 0;
+            padding-top: 40px;
+            text-align: center;
+            font-size: 23px;
+            color: white;
+
+        }
+
+        .parent #sub_heading {
+            margin-top: 0;
+            text-align: center;
+            font-size: 34px;
+            font-weight: bold;
+        }
+
+        .child {
+            width: 750px;
+            height: 1800px;
+            background-color: white;
+            position: relative;
+            left: 24px;
+            border-radius: 8px;
+        }
+
+        .child #para {
+            padding: 65px 52px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .child .left {
+            width: 300px;
+            height: 400px;
+            background-color: rgb(0, 0, 129);
+            position: absolute;
+            right: 61px;
+            top: 22%;
+            border-radius: 10px;
+        }
+
+        .child .right {
+            width: 300px;
+            height: 400px;
+            background-color: rgb(0, 0, 129);
+            position: absolute;
+            left: 61px;
+            top: 22%;
+            border-radius: 10px;
+        }
+
+        .img1 {
+            width: 200px;
+            height: 110px;
+            background-color: rgb(52, 166, 204);
+            position: absolute;
+            top: -26px;
+            left: 45px;
+            border-radius: 8px;
+        }
+        .child i{
+            font-size: 66px;
+            margin: 26px 63px;
+            color: white;
+        }
+        .left .content {
+            color: white;
+            margin-top: 35%;
+            padding: 10px 45px;
+            font-size: 20px;
+        }
+
+        .right .content1 {
+            color: white;
+            margin-top: 35%;
+            padding: 10px 45px;
+            font-size: 20px;
+        }
+
+        .child .left1 {
+            width: 300px;
+            height: 400px;
+            background-color: rgb(0, 0, 129);
+            position: absolute;
+            right: 61px;
+            top: 48%;
+            border-radius: 10px;
+        }
+
+        .img2 {
+            width: 200px;
+            height: 110px;
+            background-color: rgb(67 196 239);
+            position: absolute;
+            top: -26px;
+            left: 45px;
+            border-radius: 8px;
+        }
+
+        .left1 .content2 {
+            color: white;
+            margin-top: 35%;
+            padding: 10px 45px;
+            font-size: 20px;
+        }
+
+        .child .right1 {
+            width: 300px;
+            height: 400px;
+            background-color: rgb(0, 0, 129);
+            position: absolute;
+            left: 61px;
+            top: 48%;
+            border-radius: 10px;
+        }
+
+        .right1 .content2 {
+            color: white;
+            margin-top: 35%;
+            padding: 10px 45px;
+            font-size: 20px;
+        }
+        .other p{
+            margin-top: 120%;
+            padding: 0px 23px;
+        }
+
+        .last_img img{
+            margin-left: 56px;
+            border:8px solid  rgb(45, 169, 226);
+            border-radius: 50%;
+        }
+        .child .name {
+            margin-top: 5px;
+            float: right;
+            margin-right: 49%;
+        }
+        .child .name h3{
+            padding: 0;
+            margin: 0;
+            font-size: 23px;
+            color: rgb(3, 125, 165);
+            padding: 8px 0px;
+
+        }
+        .child .name p{
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+        }
+        .child #post_name{
+            font-weight: bold;
+            padding: 5px 0px;
+        }
+        .parent_image img{
+            float: left;
+            margin-left: 24px;
+        }
+        .parent_image h3{
+            margin-top: 21px;
+            color: white;
+        }
+        .link{
+            float: right;
+            margin-right: 34px;
+        }
+        .link a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <p id="heading">All - Company</p>
+        <p id="sub_heading">Announcement </p>
+        <div class="child">
+            <p id="para">Hi eveyone, <br> <br> <br> I realize that there's a lot of uncertainty around coronavirus. I
+                wanted to share our policy going forward to make sure we're all on hte same page and to keep oru team
+                healthy and safe. <br><br>
+                While the current health risk is low in our area, it's important to take precautions.</p>
+
+            <div class="left">
+                <div class="img1">
+                    <i class="fa-solid fa-plane-slash"></i>
+                </div>
+                <div class="content">
+                    <p>Don't travel to impacted regions-as determined by the CDC. You can see a CDC travel map <a
+                            href="#">here</a></p>
+                    <br>
+                    <p>Switch meetings and events to virtual. going forward as well.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="img1">
+                    <i class="fa-regular fa-solid fa-house"></i>
+                </div>
+                <div class="content1">
+                    <p>Please work form home if you feel sick. have traveled outside the country in the past two weeks
+                        or simply prefer to work remotely</p>
+                    <p>Your manager will work with you to ensure a smooth transition.</p>
+                </div>
+            </div>
+            <!-- Here is second card -->
+
+            <div class="left1">
+                <div class="img2">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <div class="content2">
+                    <p>Self-isolation can be emotionally difficult. <br> <br> Please feel free to logn to our <b>Sunlige
+                            benefits</b> <a href="#">website</a> for free mental health support.</p>
+                    <!-- <br> -->
+                    <p> Or call Telehealth at <br> 1-888-900-9999</p>
+                </div>
+            </div>
+            <div class="right1">
+                <div class="img2">
+                    <i class="fa-solid fa-helmet-safety"></i>         
+                </div>
+                <div class="content2">
+                    <p>Please work form home if you feel sick. have traveled outside the country in the past two weeks
+                        or simply prefer to work remotely</p>
+                    <p>Your manager will work with you to ensure a smooth transition.</p>
+                </div>
+            </div>
+            <div class="other">
+                <p id="para">Here's what we do know: the CDC is listing most regions as sage. Health officials are saying good
+                    hyginene habits make a big difference, too. <br> <br> What we don't know yet is how this situation
+                    will impact our upcoming company-wide retreat. We'll be tracking CDC updates and news reports and we'll let you know if anythings changes. Expect to get another email from me with an update by Friday. <br> <br> In the meantime, please don't hesitate to reach out to me, your manager or HR if you have any questions or concerns at all. <br> <br> We're all here to support you. Stay safe!</p>
+            </div>
+            <div class="name">
+                <h3>Michelle Greenwald</h3>
+                <p>Co-Founder</p>
+                <p id="post_name">skyline Consultants</p>
+            </div>
+            <div class="last_img">
+                <img src="/girls_image.jpg" alt="Founder_Image" width="90px" height="86px">   
+            </div>
+        </div>
+        <div class="parent_image">
+            <img src="/skyline.png" alt="Footer_Image" width="90px" height="90px">
+            <h3>SKYLINE <br> CONSULTANTS</h3>
+        </div>
+        <div class="link">
+            <a href="www.skylinkconsultants.com">www.skylinkconsultants.com</a>
+        </div>
+    </div>
+</body>
+</html>
